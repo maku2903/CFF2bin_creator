@@ -1,4 +1,5 @@
-Join .segment files into a single .bin image with gaps filled by 0xFF.
+Join .segment from CFFFlashFileTools files into a single .bin image with gaps filled by 0xFF.
+With unified .bin, you can compare flash with original dump.
 
 Expected filename format:
 <MODULE_NAME>_<firmware>_<firmware_no>_<unk>_<unk>_hex_<starting_address_hex>.segment
